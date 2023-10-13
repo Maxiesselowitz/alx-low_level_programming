@@ -2,7 +2,7 @@
 
 /**
  * main - Printing if a number is positive, negative or zero.
- *
+ * 0 : is the number to be checked
  * Return: Always 0 (Success)
  */
 void positive_or_negative(int i)
