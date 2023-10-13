@@ -16,13 +16,13 @@ if (a > b && a > c)
 {
 	largest = a;
 }
-else if (a > c && c > b)
+else if (b > c && b > a)
 {
-	largest = a;
+	largest = b;
 }
-else if (b > c)
+else if (c > b)
 {
-	largest = a;
+	largest = b;
 }
 
 return (largest);
