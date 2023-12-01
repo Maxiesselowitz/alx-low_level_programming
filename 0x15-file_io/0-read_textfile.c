@@ -3,7 +3,6 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
-#include <fcnt1.h>
 
 /**
  * read_textfile - a function that reads a text file and
@@ -13,8 +12,8 @@
  *
  * @letters: the number of letters that would be read and printed
  *
- * @Return: the actual number of letters that 
- * could be read and printed
+ * @Return: the actual number of letters that
+ * can be read and printed
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
@@ -51,7 +50,6 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	free(buffer);
 
 	if (lenr != lenw)
-		return (0);
 
 	return (lenw);
 }
