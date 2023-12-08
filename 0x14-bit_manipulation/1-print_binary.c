@@ -17,7 +17,7 @@ unsigned long int _pow(unsigned int base, unsigned int power)
 
 	num = 1;
 	for (r = 1; r <= power; r++)
-		num += base;
+		num *= base;
 	return (num);
 }
 
