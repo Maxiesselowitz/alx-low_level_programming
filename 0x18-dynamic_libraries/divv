@@ -1,0 +1,29 @@
+#include <stdlib.h>
+
+/**
+ * my_div - the division of the two integers
+ *
+ * @a: the first integer
+ * @b: the second integer
+ *
+ * Return: the result
+ */
+int my_div(int a, int b)
+{
+    if (b == 0)
+    {
+        printf("Error: Division by zero is undefined.\n");
+        exit(EXIT_FAILURE); // Include stdlib.h for exit function
+    }
+
+    return a / b;
+}
+
+int main()
+{
+    int result = my_div(10, 2);
+    printf("Result: %d\n", result);
+
+    return 0;
+}
+
